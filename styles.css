@@ -17,10 +17,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  color: white; /* Optional: improves text readability */
-
-
 }
+
 
 header {
   background-color: #003366;
@@ -218,4 +216,12 @@ footer {
   background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
   padding: 2rem;
   border-radius: 8px;
+}
+.overlay {
+  color: white;
+}
+.about,
+.achievements,
+.card {
+  color: #000 !important;
 }
