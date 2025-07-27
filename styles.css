@@ -12,6 +12,14 @@ body {
   color: #333;
   padding: 0;
   margin: 0;
+  background-image: url('vecteezy_earth-and-galaxy-elements-of-this-image-furnished-by-nasa_22777289.jpg'); /* or use URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white; /* Optional: improves text readability */
+
+
 }
 
 header {
@@ -205,4 +213,9 @@ footer {
 .video iframe {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  padding: 2rem;
+  border-radius: 8px;
 }
